@@ -16,6 +16,20 @@
   .active {
     background-color: #04AA6D;
   }
+  .textItalique
+  {
+    font-style:italic
+  }
+  h2 {
+    color: blueviolet;
+  }
+  .work-item
+  {
+    color:  darkslateblue;
+  }
+  .submitted-info{
+    color : gray
+  }
 
 
   nav ul {
