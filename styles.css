@@ -4,28 +4,34 @@
     margin: 0;
     padding: 0;
   }
+
   header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
   }
+
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
+
   nav ul li {
     display: inline;
     margin-right: 20px;
   }
+
   nav ul li a {
     color: #fff;
     text-decoration: none;
   }
+
   nav ul li a:hover {
     text-decoration: underline;
   }
+
   /* CSS for content section */
   .content {
     display: flex;
@@ -34,51 +40,62 @@
     height: 80vh;
     padding: 20px;
   }
+
   .container {
     display: flex;
     align-items: center;
     width: 80%;
     max-width: 800px;
   }
+
   .text {
     margin-right: 20px;
     flex: 1;
   }
+
   .text h2 {
     margin-bottom: 10px;
   }
+
   .image {
     flex: 1;
     text-align: center;
   }
+
   .image img {
     max-width: 100%;
     height: auto;
-    max-height: 400px; /* Adjust this value as needed */
+    max-height: 400px;
+    /* Adjust this value as needed */
   }
+
   footer {
     background-color: #333;
     padding: 20px 0;
     text-align: center;
   }
-  
+
   .social-icons a {
-    
-   
-  display: inline-block;
+
+
+    display: inline-block;
     margin: 0 10px;
   }
-  
+
   .social-icons img {
     width: 30px;
     height: 30px;
   }
 
   .carousel-container {
-    width: 80%; /* Set to 80% width of the page */
-    margin: 0 auto; /* Center align */
-    padding: 20px; /* Add padding */
+    width: 80%;
+    /* Set to 80% width of the page */
+    margin: 0 auto;
+    /* Center align */
+    padding: 20px;
+    /* Add padding */
   }
+
   /* Adjust styles for images and videos within the carousel */
   .carousel-inner img,
   .carousel-inner iframe {
